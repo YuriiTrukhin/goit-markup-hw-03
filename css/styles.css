@@ -1,0 +1,217 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --main-font-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* ===== Header ===== */
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+  cursor: pointer;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+.header-tel-link,
+.header-mail-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel-link:hover,
+.header-tel-link:focus,
+.header-mail-link:focus,
+.header-mail-link:hover {
+  color: var(--accent-color);
+}
+/* ===== End Header ===== */
+/* ===== Hero ===== */
+.hero {
+  background-color: #2f303a;
+}
+.logotype {
+  font-family: var(--logo-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--main-font-color);
+}
+.hero-name {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+.modal-button:hover,
+.modal-button:focus {
+  color: var(--accent-color);
+}
+.modal-button {
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-decoration: none;
+}
+
+/* ===== End Hero ===== */
+/* ===== Skills ===== */
+.skills-name {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.skills-description {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===== End Skills */
+/* ===== What are we doing ===== */
+.examples {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+/* ===== End what are we doing ===== */
+/* ===== Our team =====*/
+.our-team {
+  background-color: #f5f4fa;
+}
+.team {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.team-list-member {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+}
+.team-list-member-specialization {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===== End our team =====*/
+.footer {
+  background-color: #2f303a;
+}
+.logo-studio-footer {
+  color: var(--white-color);
+}
+.address-physical {
+  font-family: var(--white-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.address-mail-tel-footer {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ===== Footer ===== */
+/* ===== Portfolio Menu ===== */
+.nav-button {
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.nav-button :hover,
+.nav-button :focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.nav-button.current {
+  color: var(--accent-color);
+}
+.portfolio-work {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-font-color);
+}
+.portfolio-work-example {
+  font-family: var(--main-font-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===== End Portfolio Menu ===== */
