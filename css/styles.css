@@ -12,9 +12,24 @@ body {
   text-decoration: none;
 }
 .list {
+  padding: 0px;
   list-style: none;
 }
+img {
+  display: block;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 /* ===== Header ===== */
+.header {
+  outline: 2px solid tomato;
+}
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -45,9 +60,14 @@ body {
 .header-mail-link:hover {
   color: var(--accent-color);
 }
+
 /* ===== End Header ===== */
 /* ===== Hero ===== */
 .hero {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  outline: 2px solid tomato;
   background-color: #2f303a;
 }
 .logotype {
@@ -63,6 +83,8 @@ body {
   color: var(--main-font-color);
 }
 .hero-name {
+  margin-top: 0px;
+  margin-bottom: 40px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 900;
@@ -77,6 +99,12 @@ body {
   color: var(--accent-color);
 }
 .modal-button {
+  min-width: 200px;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  text-align: center;
   cursor: pointer;
   color: var(--white-color);
   background-color: #2196f3;
@@ -88,7 +116,20 @@ body {
 
 /* ===== End Hero ===== */
 /* ===== Skills ===== */
+.skills {
+  outline: 2px solid tomato;
+}
+.container {
+  outline: 2px solid tomato;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .skills-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -98,6 +139,8 @@ body {
   color: var(--main-font-color);
 }
 .skills-description {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
@@ -108,7 +151,13 @@ body {
 }
 /* ===== End Skills */
 /* ===== What are we doing ===== */
+.what-are-we-doing {
+  outline: 2px solid tomato;
+}
+
 .examples {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -118,12 +167,19 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-font-color);
 }
+.examples-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /* ===== End what are we doing ===== */
 /* ===== Our team =====*/
 .our-team {
+  outline: 2px solid tomato;
   background-color: #f5f4fa;
 }
 .team {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -154,7 +210,9 @@ body {
   color: #757575;
 }
 /* ===== End our team =====*/
+/* ===== Footer ===== */
 .footer {
+  outline: 2px solid tomato;
   background-color: #2f303a;
 }
 .logo-studio-footer {
@@ -179,8 +237,11 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-/* ===== Footer ===== */
+/* ===== End Footer ===== */
 /* ===== Portfolio Menu ===== */
+.portfolio-menu {
+  outline: 2px solid tomato;
+}
 .nav-button {
   color: var(--title-text-color);
   font-family: inherit;
@@ -195,6 +256,11 @@ body {
 }
 .nav-button.current {
   color: var(--accent-color);
+}
+/* ===== End Portfolio Menu ===== */
+/* ===== Examples ===== */
+.work-examples {
+  outline: 2px solid tomato;
 }
 .portfolio-work {
   font-family: var(--main-font);
@@ -214,4 +280,4 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* ===== End Portfolio Menu ===== */
+/* ===== End Examples ===== */
