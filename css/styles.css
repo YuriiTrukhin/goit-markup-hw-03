@@ -405,9 +405,10 @@ color: var(--accent-color);
   margin-bottom: 0px;
 }
 .img-portfolio {
-  margin-bottom: 20px;
+  
 }
 .portfolio-work {
+  margin-top: 20px;
   margin-bottom: 4px;
   margin-left: 24px;
   margin-right: 24px;
