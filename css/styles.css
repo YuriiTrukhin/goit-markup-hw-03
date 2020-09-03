@@ -99,6 +99,7 @@ button {
 /* ===== End Header ===== */
 /* ===== Hero ===== */
 .hero {
+  
   padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 452px;
@@ -107,6 +108,14 @@ button {
   margin-bottom: 0px;
   text-align: center;
   background-color: #2f303a;
+}
+.hero-box {
+  margin: auto;
+  width: 696px;
+  display: flex;
+  flex-direction: column;
+   justify-items: center;
+   align-items: center;
 }
 .logotype {
   font-family: var(--logo-font);
@@ -265,17 +274,18 @@ button {
   letter-spacing: 0.03em;
   color: var(--main-font-color);
 }
-.item-team-list {
+.item-team-list {  
   width: 270;
   background-color: #fff;
 }
 .team_photo {
-  margin-bottom: 30px;
+  margin: 0px;
 }
 .item-team-list:not(:last-child) {
   margin-right: 30px;}
 .team-list-member {
-   margin-bottom: 10px; 
+  margin-bottom: 10px;
+  margin-top: 30px; 
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -296,6 +306,10 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.team-picture-title {
+  border: 2px solid lightgray;  
+  margin: 0px;
 }
 /* ===== End our team =====*/
 /* ===== Footer ===== */
@@ -432,5 +446,8 @@ color: var(--accent-color);
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.img-portfolio-button {
+  border: 2px solid lightgray;
 }
 /* ===== End Portfolio Menu ===== */
