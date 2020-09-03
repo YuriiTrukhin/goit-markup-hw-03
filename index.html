@@ -37,56 +37,59 @@
               <a class="navigation-list-link link" href="">Контакты</a>
             </li>
           </ul>
-        </nav>
 
-        <ul class="list">
-          <li>
-            <a class="header-mail-link link" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a class="header-tel-link link" href="tel:+380961111111"
-              >+38 096 111 11 11
-            </a>
-          </li>
-        </ul>
+          <ul class="header-tel-mail list">
+            <li class="header-tel-mail-position">
+              <a class="header-mail-link link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="header-tel-link link" href="tel:+380961111111"
+                >+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <!-- Main -->
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h1 class="hero-name">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero-name">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
         <button class="modal-button" type="button">Заказать услугу</button>
       </section>
       <!-- Skills -->
       <section class="skills">
         <div class="container">
           <h2 hidden>Навыки</h2>
-          <ul class="list link">
-            <li>
+          <ul class="skills-list list link">
+            <li class="item-list">
               <p class="skills-name">Внимание к деталям</p>
               <p class="skills-description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="item-list">
               <p class="skills-name">Пунктуальность</p>
               <p class="skills-description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item-list">
               <p class="skills-name">Планирование</p>
               <p class="skills-description">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item-list">
               <p class="skills-name">Современные технологии</p>
               <p class="skills-description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -101,7 +104,7 @@
         <div class="container">
           <h2 class="examples">Чем мы занимаемся</h2>
           <ul class="examples-list list link">
-            <li>
+            <li class="examples-item">
               <img
                 src="./images/what_are_we_doing/laptop.jpg"
                 alt="Десктопные приложения"
@@ -109,7 +112,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="examples-item">
               <img
                 src="./images/what_are_we_doing/mobile.jpg"
                 alt="Мобильные приложения"
@@ -117,7 +120,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="examples-item">
               <img
                 src="./images/what_are_we_doing/design.jpg"
                 alt="Дизайнерские решения"
@@ -133,8 +136,9 @@
         <div class="container">
           <h2 class="team">Наша команда</h2>
           <ul class="team-list list link">
-            <li>
+            <li class="item-team-list">
               <img
+                class="team_photo"
                 src="./images/our-team/IgorD.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
@@ -145,8 +149,9 @@
                 Product Designer
               </p>
             </li>
-            <li>
+            <li class="item-team-list">
               <img
+                class="team_photo"
                 src="./images/our-team/OlgaR.jpg"
                 alt="Ольга Репина"
                 width="270"
@@ -157,8 +162,9 @@
                 Frontend Developer
               </p>
             </li>
-            <li>
+            <li class="item-team-list">
               <img
+                class="team_photo"
                 src="./images/our-team/NikolayT.jpg"
                 alt="Николай Тарасов"
                 width="270"
@@ -167,8 +173,9 @@
               <h3 class="team-list-member">Николай Тарасов</h3>
               <p lang="en" class="team-list-member-specialization">Marketing</p>
             </li>
-            <li>
+            <li class="item-team-list">
               <img
+                class="team_photo"
                 src="./images/our-team/MihailE.jpg"
                 alt="Михаил Ермаков"
                 width="270"
@@ -186,7 +193,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" class="logotype link">
+        <a href="./index.html" class="logotype-footer link">
           Web<span class="logo-studio-footer"> Studio </span>
         </a>
         <address>
@@ -196,19 +203,20 @@
           >
             г.Киев, пр-т Леси Украинки, 26
           </a>
+
+          <ul class="footer-contacts list link">
+            <li>
+              <a class="address-mail-footer" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="address-tel-footer" href="tel:+380961111111"
+                >+38 096 111 11 11
+              </a>
+            </li>
+          </ul>
         </address>
-        <ul class="footer list link">
-          <li>
-            <a class="address-mail-tel-footer" href="mailto:info@devstudio.com">
-              info@devstudio.com
-            </a>
-          </li>
-          <li>
-            <a class="address-mail-tel-footer" href="tel:+380961111111"
-              >+38 096 111 11 11
-            </a>
-          </li>
-        </ul>
       </div>
     </footer>
   </body>
