@@ -364,6 +364,8 @@ button {
   
 }
 .nav-button {
+  border: 1px solid transparent;
+  border-radius: 4px;
   color: var(--main-font-color);
   font-family: inherit;
   font-weight: 500;
