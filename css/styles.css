@@ -30,7 +30,7 @@ button {
 }
 /* ===== Header ===== */
 .header {
- 
+ border-bottom: 1px solid grey;
   padding-left: 215px;
   padding-right: 215px;
   
@@ -390,8 +390,10 @@ color: var(--accent-color);
   display: flex;
   flex-wrap: wrap;
   
+  
 }
 .portfolio-item{
+  
   widows: 380px; ;
   margin-right: 30px;
   margin-bottom: 30px;
